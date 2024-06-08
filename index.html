@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>webflow</title>
+    <link rel="stylesheet" href="./app/css/style.css" />
+    <link rel="stylesheet" href="./app/css/bootstrap.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+ <section>
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgb(200, 255, 0);">
+            <div class="container">
+               <a class="navbar-brand" href="#">
+                <img src="./app/assets/pngwing.com(44).png" alt="" class="img-fluid" style="max-width: 70px;">
+               </a>
+               <button class="navbar-toggler shadow-none" style="border:none;color: azure;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                  <div class="offcanvas-header border-bottom">
+                     <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                        <img src="./assets/pngwing.com(44).png" alt="" class="img-fluid" style="width: 10%;">
+                     </h5>
+                     <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body pt-4">
+                     <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                         <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     For Sale
+                  </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item bg-primary text-light" href="#">House For Sale&rarr;</a></li>
+                <li><a class="dropdown-item" href="#">Land For Sale</a></li>
+                <li><hr class="dropdown-divider"></li>
+               <li><a class="dropdown-item" href="#">Commercial property for sale</a></li>
+          </ul>
+        </li>
+                         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            For Rent
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item bg-primary text-light" href="#">Decor and lifestyle&rarr;</a></li>
+            <li><a class="dropdown-item" href="#">Real Estate News</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Neighbourhood Guides</a></li>
+          </ul>
+        </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Property Advise
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item bg-primary text-light" href="#">House For Rent&rarr;</a></li>
+            <li><a class="dropdown-item" href="#">Apartments for Rents</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Bedsitter For Rent</a></li>
+          </ul>
+        </li>       
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Real Estate projects</a>
+                         </li>
+                        
+                        <li class="nav-item">
+                            <!-- <a class="nav-link" href="#">Contact</a> -->
+                         </li>
+                     </ul>
+                     </li>
+                     </ul>
+                     <div class="contact-btn">
+                         <a class="navbar-brand">
+                           <button type="button" class="btn btn-outline-primary me-1" style="border-radius: 0;">Request Property</button>
+                           <button type="button" class="btn btn-outline-primary ms-2" style="border-radius: 0;">Contact</button>
+                      </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </nav>
+    </section>
+
+
+
+    <!-- Hero section -->
+   <section id="Hero" class="min-vh-100 d-flex align-items-center text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="fw-semibold display-4 text-white">BEST HOUSE AND RENTING SERVICES</h1>
+          <h3 class="text-white display-5 mt-3 mb-4">We Turn Dreams Into Reality</h3>
+          <div>
+           <button type="button" class="btn btn-primary me-1" style="border-radius: 0;">BUY NOW</button>
+           <button type="button" class="btn btn-primary ms-2" style="border-radius: 0;">RENT</button>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+   <!-- end of hero section -->
+     
+   
+   <!-- start of featured section -->
+   <section id="about" class="padding">
+    <div class="container pt-5">
+      <div class="row">
+      <div class="col-lg-6">
+        <img src="./app/assets/landing 2.webp" alt="beach front" width="500px">
+      </div>
+      <div class="col pt-5">
+        <h6 class="text-uppercase text-primary">Our Mission</h6>
+        <h3 style="color: blue;">To Be the Most Trusted Name in Real Estate Globally</h3>
+        <div>
+          <p>We continuously strive to provide the best living experience. Today, better than yesterday. Tomorrow, better than today. By developing landmark buildings and expansive residences in record time, ensuring the most fulfilling lives to their occupants.</p>\
+          <button type="button" class="btn btn-outline-primary me-1" style="border-radius: 0;">MORE ABOUT US &rarr;</button>
+        </div>
+      </div>
+      </div>
+    </div>
+   </section>
+   <!-- end of the section -->
+
+   <div class="container pt-4">
+    <div class="row pt-4 text-center">
+      <div class="col">
+        <img src="./app/assets/development_1.png" alt="development1" width="120px">
+        <h4 class="text-primary">Residential Developement</h4>
+        <p>The Group successfully ventured into Real Estate by creating a series of residential spaces at strategic locations in Kolkata, Siliguri and Durgapur under the aegis of Dream Homes.</p>
+         <button type="button" class="btn btn-primary me-1" style="border-radius: 0;">EXPLORE MORE</button>
+      </div>
+      <div class="col">
+         <img src="./app/assets/development_1.png" alt="development1" width="120px">
+        <h4 class="text-primary">Commercial Developement</h4>
+        <p>Our mission is to engage in issues that are of concern to individuals, families and communities through an uncompromising commitment to create outstanding living. </p>
+         <button type="button" class="btn btn-primary me-1" style="border-radius: 0;">EXPLORE MORE</button>
+      </div>
+      <div class="col">
+      <img src="./app/assets/investor.png" alt="development1" width="120px">
+        <h4 class="text-primary">Investor</h4>
+        <p>ReHomes started it is journey almost 3 decades back. The Group has firmly established itself as a trustworthy and dependable organization in Real Estate Industry that delivers quality. </p>
+         <button type="button" class="btn btn-primary me-1" style="border-radius: 0;">EXPLORE MORE</button>
+      </div>
+      </div>
+    </div>
+   </div>
+
+
+   <section id="hero" class="min-vh-100 card">
+   <div class="container pt-4">
+    <div class="col text-center text-light">
+      <h5>Why Choose Us</h5>
+      <h3>Where Happiness Lives</h3>
+    </div>
+    <div class="row pt-4 text-center">
+      <div class="col theme-shadow py-3 bg">
+        <img src="./app/assets/house(1).png"  alt="development1" width="70px">
+        <h5 class="text-light">High Quality Products</h5>
+        <p class="fs-6 text-light">The luxurious and exquisite design harmonious with the surrounding architecture provide the best living.</p>
+      </div>
+      <div class="col">
+         <img src="./app/assets/house.png" alt="development1" width="70px">
+        <h5 class="text-light">Comprehensive Amenities</h5>
+        <p class="text-light">The landscape infrastructures of streets are arranged in harmony with the common amenities for residents. </p>
+      </div>
+      <div class="col bg-primary py-3">
+      <img src="./app/assets/customer-service.png" alt="development1" width="70px">
+        <h5 class="text-light">Profeesional Services</h5>
+        <p class="text-light">The customer service center is ready to serve 24/7, support the residents to provide information.</p>
+      </div>
+      </div>
+    </div>
+   </div>
+
+
+   <!-- section two of the cards -->
+   <div class="container pt-4">
+    <div class="row pt-4 text-center">
+      <div class="col">
+        <img  src="./app/assets/lock.png" alt="development1" width="70px">
+        <h5 class="text-light">Absolute Security</h5>
+        <p class="fs-6 text-light">Advanced security system with modern equipments, professional 24/7 security staff.</p>
+
+      </div>
+      <div class="col bg-primary py-3">
+         <img src="./app/assets/solidarity.png" alt="development1" width="70px">
+        <h5 class="text-light">Green And Clean Environment</h5>
+        <p class="text-light">Each urban area of Rehomes is built on the basis of "A place that living is in harmony" </p>
+      </div>
+      <div class="col text-white">
+      <img src="./app/assets/people.png" alt="development1" width="70px">
+        <h5 class="text-light">Humanitarian Community</h5>
+        <p class="text-light">Family members, as well as building the sense of affection for the neighbors. </p>
+      </div>
+      </div>
+    </div>
+   </div> 
+   </section>
+
+<section>
+  <div class="container pt-5">
+    <div class="col text-center">
+      <h6>From our blog.</h6>
+      <h3>News & Events</h3>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <img src="./app/assets/blog1.jpg" alt="blog1" width="500px" height="250px">
+        <button type="button" class="btn btn-primary btn-sm mt-3">Tips & Tricks</button>
+        <button type="button" class="btn btn-secondary btn-sm mt-3">Uncategorized</button>
+        <h6>Motivational Sayings Ten Great Ones</h6>
+       <p class="text-secondary">By <span class="text-dark">Admin</span>
+,
+October 18, 2019</p>
+      </div>
+       <div class="col-6">
+        <img src="./app/assets/blog2.jpg" alt="blog1" width="500px" height="250px">
+        <!-- <button type="button" class="btn btn-primary btn-sm mt-3">Tips & Tricks</button> -->
+        <button type="button" class="btn btn-secondary btn-sm mt-3">Uncategorized</button>
+        <h6>Do You Think Motivational Thoughts</h6>
+       <p class="text-secondary">By <span class="text-dark">Admin</span>
+,
+October 18, 2019</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section>
+  <div class="container">
+    <div class="col text-center">
+      <h5>Testimonials</h5>
+      <h4>Our Biggest Award is Develop Thriving Communities</h4>
+    </div>
+    <div class="row">
+      <div class="col-6 bg-primary text-light pt-4">
+        <img src="./app/assets/h7_2.png" alt="" width="80px">
+        <h6 style="display: inline-flex;">Grayce, New York Usa</h6>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero magnam ea illum nisi maiores commodi nostrum porro magni soluta omnis, quae est, modi illo beatae eos maxime ab rerum! Architecto facilis distinctio asperiores expedita sint tempore eius eos quasi, molestiae maxime eveniet ab doloremque consequuntur ut necessitatibus, nihil eaque quas, eligendi quis quam debitis.
+        </p>
+      </div>
+      <div class="col pt-4">
+        <img src="./app/assets/h7_3.png" alt="" width="80px">
+        <h6 style="display: inline-flex;">Whitney, KUololampa,India</h6>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque quos fuga ipsam velit voluptatum nisi accusamus! Ut, quo. Nobis, quis at? Possimus nulla laborum voluptate delectus consectetur eaque necessitatibus blanditiis nisi, nemo cumque cum fugit vitae quae facilis et dolores, accusantium a totam architecto! Aperiam molestias, quasi earum cupiditate rerum dolore modi ea</p>
+      </div>
+  </div>
+</section>
+
+
+<!-- <details> -->
+  <!-- <summary><b>Web Dev</b></summary> -->
+    <!-- <div> -->
+<!-- <p>Html</p> -->
+<!-- <p>Css</p> -->
+<!-- <p>JS</p> -->
+    <!-- </div> -->
+  <!-- </details> -->
+
+  <section>
+    <div class="container pt-4">
+      <div class="col text-center">
+        <h5>Reach Us Through</h5>
+      <h4>Submit Your Contact information</h4>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="./app/assets/project 4.jpg" alt="project 4" width="500px">
+        </div>
+        <div class="col-lg-6">
+          <form class="row g-3">
+  <div class="col-md-4">
+    <label for="validationServer01" class="form-label">First name</label>
+    <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationServer02" class="form-label">Last name</label>
+    <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationServerUsername" class="form-label">Username</label>
+    <div class="input-group has-validation">
+      <span class="input-group-text" id="inputGroupPrepend3">@</span>
+      <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+      <div id="validationServerUsernameFeedback" class="invalid-feedback">
+        Please choose a username.
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label for="validationServer03" class="form-label">City</label>
+    <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+    <div id="validationServer03Feedback" class="invalid-feedback">
+      Please provide a valid city.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationServer04" class="form-label">State</label>
+    <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+      <option selected disabled value="">Choose...</option>
+      <option>...</option>
+    </select>
+    <div id="validationServer04Feedback" class="invalid-feedback">
+      Please select a valid state.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationServer05" class="form-label">Zip</label>
+    <input type="text" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" required>
+    <div id="validationServer05Feedback" class="invalid-feedback">
+      Please provide a valid zip.
+    </div>
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+      <label class="form-check-label" for="invalidCheck3">
+        Agree to terms and conditions
+      </label>
+      <div id="invalidCheck3Feedback" class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit" style="border-radius: 0;">Submit form</button>
+  </div>
+</form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- style="background-color: rgb(200, 255, 0); -->
+
+
+
+  <footer class="foo pt-5">
+    <div class="container-fluid  pt-5" style="background-color: rgb(200, 255, 0);">
+      <div class="row">
+        <div class="col-lg-3">
+          <h6>ABOUT</h6>
+          <div class="pt-4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti tempore laborum voluptatum odit asperiores error neque recusandae, blanditiis cupiditate. Vitae perspiciatis natus fuga porro fugit quisquam aspernatur dignissimos pariatur reiciendis.</p>
+          </div>
+        </div>
+         <div class="col-lg-3">
+          <h6>CONTACT INFO</h6>
+          <div class="pt-4">
+          <p>Call-centre: 1 (323) 938-5798
+Fax: 1 (888) 637-7262
+Email: info@styleixthemes.com</p>
+          <p>1840 E Garvey Avenue Street
+West Covina, CA 91791, U.S.
+Monday - Friday: 9:00am - 9:00pm</p>
+          </div>
+      </div>
+       <div class="col-lg-3">
+          <h6>REAL ESTATE MARKETERS</h6>
+          <div class="pt-4">
+          <p>Pricing Plans</p>
+          <p>Our Services</p>
+          <p>About Us</p>
+          <p>Contact Us</p>
+          </div>     
+    </div>
+     <div class="col-lg-3">
+          <h6>INFORMATION</h6>
+          <div class="pt-4">
+        <p>Apartment For Rent</p>
+        <p>Offices To Buy</p>
+        <p>Offices To Rent</p>
+        <p>Apartment Low To Hide</p>
+          </div>
+      
+  </footer>
+  <div class="container-fluid" style="background-color: rgb(200, 255, 0);">
+    
+      <div class="row">
+    <div class="col-md-6 col-lg-12 justify-content-center">
+     <hr> <p class="text-center">Copyright.Equity2024</p>
+    </div>
+  </div>
+  </div>
+
+  
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+    <script src="./app/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

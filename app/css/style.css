@@ -1,0 +1,58 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* overflow: hidden; */
+}
+
+.navbar a{
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Hero {
+   background: linear-gradient(rgba(0, 0, 0, 0.503),rgba(0, 0, 0, 0.5)),url(../assets/project_11-1400x700.jpg);
+   background-size: cover;
+   background-position: center;
+
+}
+
+#hero {
+    background: linear-gradient(rgba(112, 84, 240, 0.503), rgba(122, 144, 240, 0.5)), url(../assets/projo6.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 40px;
+}
+ 
+.bg {
+    background-color: blue;
+}
+
+.hero3{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#counter{
+background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/project_11-1400x700.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero1{
+    background: linear-gradient(rgba(0, 0, 0, 0.503), rgba(0, 0, 0, 0.5)), url(../assets/landing\ 2.webp);
+        background-size: cover;
+    background-position: center;
+}
+
+
